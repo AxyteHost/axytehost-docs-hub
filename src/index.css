@@ -8,52 +8,49 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 240 10% 6%;
-    --foreground: 240 6% 95%;
+    --background: 0 0% 0%;
+    --foreground: 0 0% 90%;
 
-    --card: 240 8% 8%;
-    --card-foreground: 240 6% 95%;
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 90%;
 
-    --popover: 240 8% 8%;
-    --popover-foreground: 240 6% 95%;
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 90%;
 
-    --primary: 260 80% 65%;
+    --primary: 270 80% 65%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 220 90% 70%;
+    --primary-glow: 180 80% 60%;
 
-    --secondary: 240 6% 12%;
-    --secondary-foreground: 240 6% 95%;
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 90%;
 
-    --muted: 240 6% 12%;
-    --muted-foreground: 240 5% 60%;
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 60%;
 
-    --accent: 260 80% 65%;
+    --accent: 270 80% 65%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 240 6% 15%;
-    --input: 240 6% 15%;
-    --ring: 260 80% 65%;
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 270 80% 65%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    --sidebar-background: 240 10% 5%;
-    --sidebar-foreground: 240 6% 85%;
-    --sidebar-primary: 260 80% 65%;
+    --sidebar-background: 0 0% 3%;
+    --sidebar-foreground: 0 0% 85%;
+    --sidebar-primary: 270 80% 65%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 8% 10%;
-    --sidebar-accent-foreground: 260 80% 65%;
-    --sidebar-border: 240 6% 12%;
-    --sidebar-ring: 260 80% 65%;
+    --sidebar-accent: 0 0% 8%;
+    --sidebar-accent-foreground: 270 80% 65%;
+    --sidebar-border: 0 0% 12%;
+    --sidebar-ring: 270 80% 65%;
 
-    /* Custom tokens for docs site */
-    --gradient-primary: linear-gradient(135deg, hsl(260 80% 65%), hsl(220 90% 70%));
-    --gradient-card: linear-gradient(180deg, hsl(240 8% 9%), hsl(240 8% 7%));
-    --shadow-glow: 0 0 40px hsl(260 80% 65% / 0.15);
-    --shadow-card: 0 4px 20px hsl(240 10% 3% / 0.5);
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    /* Custom gradient for title */
+    --gradient-text: linear-gradient(90deg, hsl(270 80% 65%), hsl(180 80% 60%));
+    --shadow-card: 0 4px 20px hsl(0 0% 0% / 0.5);
   }
 }
 
